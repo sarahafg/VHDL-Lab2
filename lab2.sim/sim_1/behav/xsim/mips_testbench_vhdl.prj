@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../lab2.srcs/sources_1/new/pc.vhd" \
+"../../../../lab2.srcs/sources_1/new/pc_add.vhd" \
+"../../../../lab2.srcs/sources_1/imports/Downloads/instmem.vhd" \
+"../../../../lab2.srcs/sources_1/imports/Downloads/regfile.vhd" \
+"../../../../lab2.srcs/sources_1/new/control_unit.vhd" \
+"../../../../lab2.srcs/sources_1/imports/Downloads/alu.vhd" \
+"../../../../lab2.srcs/sources_1/new/alu_control.vhd" \
+"../../../../lab2.ip_user_files/bd/datapath/ip/datapath_pc_0_0/sim/datapath_pc_0_0.vhd" \
+"../../../../lab2.ip_user_files/bd/datapath/ip/datapath_pc_add_0_0/sim/datapath_pc_add_0_0.vhd" \
+"../../../../lab2.ip_user_files/bd/datapath/ip/datapath_instmem_0_0/sim/datapath_instmem_0_0.vhd" \
+"../../../../lab2.ip_user_files/bd/datapath/ip/datapath_regfile_0_0/sim/datapath_regfile_0_0.vhd" \
+"../../../../lab2.ip_user_files/bd/datapath/ip/datapath_control_unit_0_0/sim/datapath_control_unit_0_0.vhd" \
+"../../../../lab2.ip_user_files/bd/datapath/ip/datapath_ALU_0_0/sim/datapath_ALU_0_0.vhd" \
+"../../../../lab2.ip_user_files/bd/datapath/ip/datapath_alu_control_0_0/sim/datapath_alu_control_0_0.vhd" \
+"../../../../lab2.ip_user_files/bd/datapath/sim/datapath.vhd" \
+"../../../../lab2.srcs/sim_1/new/mips_testbench.vhd" \
+
+# Do not sort compile order
+nosort

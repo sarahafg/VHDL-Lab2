@@ -1,0 +1,46 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: /tools/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 52b1fb3e5c484cbf93aa323782ca4eb4 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L xlslice_v1_0_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot mips_testbench_behav xil_defaultlib.mips_testbench xil_defaultlib.glbl -log elaborate.log 
+Using 8 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package ieee.std_logic_signed
+Compiling package vl.vl_types
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.ALU [alu_default]
+Compiling architecture datapath_alu_0_0_arch of entity xil_defaultlib.datapath_ALU_0_0 [datapath_alu_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.alu_control [alu_control_default]
+Compiling architecture datapath_alu_control_0_0_arch of entity xil_defaultlib.datapath_alu_control_0_0 [datapath_alu_control_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.control_unit [control_unit_default]
+Compiling architecture datapath_control_unit_0_0_arch of entity xil_defaultlib.datapath_control_unit_0_0 [datapath_control_unit_0_0_defaul...]
+Compiling architecture behavioral of entity xil_defaultlib.instmem [instmem_default]
+Compiling architecture datapath_instmem_0_0_arch of entity xil_defaultlib.datapath_instmem_0_0 [datapath_instmem_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.pc [pc_default]
+Compiling architecture datapath_pc_0_0_arch of entity xil_defaultlib.datapath_pc_0_0 [datapath_pc_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.pc_add [pc_add_default]
+Compiling architecture datapath_pc_add_0_0_arch of entity xil_defaultlib.datapath_pc_add_0_0 [datapath_pc_add_0_0_default]
+Compiling architecture behavioral of entity xil_defaultlib.regfile [regfile_default]
+Compiling architecture datapath_regfile_0_0_arch of entity xil_defaultlib.datapath_regfile_0_0 [datapath_regfile_0_0_default]
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.datapath_xlslice_0_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.datapath_xlslice_1_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.datapath_xlslice_2_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.datapath_xlslice_3_0
+Compiling module xlslice_v1_0_1.xlslice_v1_0_1_xlslice(DIN_FROM=...
+Compiling module xil_defaultlib.datapath_xlslice_4_1
+Compiling architecture structure of entity xil_defaultlib.datapath [datapath_default]
+Compiling architecture behavioral of entity xil_defaultlib.mips_testbench
+Built simulation snapshot mips_testbench_behav

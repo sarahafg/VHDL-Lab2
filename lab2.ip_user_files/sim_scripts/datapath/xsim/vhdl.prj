@@ -1,0 +1,11 @@
+vhdl xil_defaultlib  \
+"../../../bd/datapath/ip/datapath_pc_0_0/sim/datapath_pc_0_0.vhd" \
+"../../../bd/datapath/ip/datapath_pc_add_0_0/sim/datapath_pc_add_0_0.vhd" \
+"../../../bd/datapath/ip/datapath_instmem_0_0/sim/datapath_instmem_0_0.vhd" \
+"../../../bd/datapath/ip/datapath_regfile_0_0/sim/datapath_regfile_0_0.vhd" \
+"../../../bd/datapath/ip/datapath_control_unit_0_0/sim/datapath_control_unit_0_0.vhd" \
+"../../../bd/datapath/ip/datapath_ALU_0_0/sim/datapath_ALU_0_0.vhd" \
+"../../../bd/datapath/ip/datapath_alu_control_0_0/sim/datapath_alu_control_0_0.vhd" \
+"../../../bd/datapath/sim/datapath.vhd" \
+
+nosort

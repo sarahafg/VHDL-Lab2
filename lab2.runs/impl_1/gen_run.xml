@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1582758207">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="TopLevel_comp.drc"/>
+  <File Type="BG-BGN" Name="TopLevel_comp.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="TopLevel_comp.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="TopLevel_comp.ltx"/>
+  <File Type="BITSTR-MMI" Name="TopLevel_comp.mmi"/>
+  <File Type="BITSTR-BMM" Name="TopLevel_comp_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="TopLevel_comp.nky"/>
+  <File Type="BITSTR-RBT" Name="TopLevel_comp.rbt"/>
+  <File Type="BITSTR-MSK" Name="TopLevel_comp.msk"/>
+  <File Type="BG-BIN" Name="TopLevel_comp.bin"/>
+  <File Type="BG-BIT" Name="TopLevel_comp.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="TopLevel_comp_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="TopLevel_comp_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="TopLevel_comp_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="TopLevel_comp.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TopLevel_comp_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TopLevel_comp_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TopLevel_comp_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TopLevel_comp_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TopLevel_comp_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="TopLevel_comp_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="TopLevel_comp_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="TopLevel_comp_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TopLevel_comp_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="TopLevel_comp_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TopLevel_comp_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TopLevel_comp_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="TopLevel_comp_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="TopLevel_comp_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="TopLevel_comp_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="TopLevel_comp_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TopLevel_comp_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TopLevel_comp_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="TopLevel_comp_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="TopLevel_comp_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="TopLevel_comp_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="TopLevel_comp_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TopLevel_comp_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="TopLevel_comp_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TopLevel_comp_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="TopLevel_comp_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="TopLevel_comp_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="TopLevel_comp_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="TopLevel_comp_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TopLevel_comp_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="TopLevel_comp_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TopLevel_comp_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="TopLevel_comp_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="TopLevel_comp_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TopLevel_comp_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="TopLevel_comp_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="TopLevel_comp_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="TopLevel_comp_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="TopLevel_comp_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="TopLevel_comp_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="TopLevel_comp_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="TopLevel_comp_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="TopLevel_comp_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="TopLevel_comp.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="TopLevel_comp_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="TopLevel_comp_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="TopLevel_comp_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="TopLevel_comp_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="TopLevel_comp_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="TopLevel_comp_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="TopLevel_comp_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="TopLevel_comp.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/pc.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/pc_add.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/instmem.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../home/abdullah/Downloads/instmem.vhd"/>
+        <Attr Name="ImportTime" Val="1580998890"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/regfile.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../home/abdullah/Downloads/regfile.vhd"/>
+        <Attr Name="ImportTime" Val="1580998883"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control_unit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/alu.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../home/abdullah/Downloads/alu.vhd"/>
+        <Attr Name="ImportTime" Val="1580998903"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu_control.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/datapath/datapath.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/toplevel.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../home/abdullah/Downloads/toplevel.vhd"/>
+        <Attr Name="ImportTime" Val="1582582182"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/bd/datapath/hdl/datapath_wrapper.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TopLevel_comp"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/Downloads/mips.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../home/abdullah/Downloads/mips.xdc"/>
+        <Attr Name="ImportTime" Val="1582582192"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="datapath_instmem_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="datapath_pc_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="datapath_pc_add_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="datapath_control_unit_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="datapath_alu_control_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="datapath_ALU_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="datapath_regfile_0_0"/>
+</GenRun>

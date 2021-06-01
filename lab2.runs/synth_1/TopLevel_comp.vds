@@ -1,0 +1,505 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Feb 26 18:02:34 2020
+# Process ID: 5830
+# Current directory: /tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1
+# Command line: vivado -log TopLevel_comp.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopLevel_comp.tcl
+# Log file: /tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/TopLevel_comp.vds
+# Journal file: /tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source TopLevel_comp.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/tools/Xilinx/Vivado/2018.3/data/ip'.
+add_files: Time (s): cpu = 00:00:24 ; elapsed = 00:00:20 . Memory (MB): peak = 1464.770 ; gain = 112.055 ; free physical = 479 ; free virtual = 3426
+Command: synth_design -top TopLevel_comp -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 6195 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1464.770 ; gain = 0.000 ; free physical = 359 ; free virtual = 3312
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'TopLevel_comp' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:19]
+WARNING: [Synth 8-5640] Port 'carryout' is missing in component declaration [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:38]
+WARNING: [Synth 8-5640] Port 'overflow' is missing in component declaration [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:38]
+WARNING: [Synth 8-5640] Port 'zero' is missing in component declaration [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:38]
+INFO: [Synth 8-3491] module 'datapath' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:14' bound to instance 'datapth' of component 'datapath' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'datapath' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:29]
+INFO: [Synth 8-3491] module 'datapath_ALU_0_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_ALU_0_0_stub.vhdl:5' bound to instance 'ALU_0' of component 'datapath_ALU_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:155]
+INFO: [Synth 8-638] synthesizing module 'datapath_ALU_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_ALU_0_0_stub.vhdl:19]
+INFO: [Synth 8-3491] module 'datapath_alu_control_0_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_alu_control_0_0_stub.vhdl:5' bound to instance 'alu_control_0' of component 'datapath_alu_control_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:166]
+INFO: [Synth 8-638] synthesizing module 'datapath_alu_control_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_alu_control_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'datapath_control_unit_0_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_control_unit_0_0_stub.vhdl:5' bound to instance 'control_unit_0' of component 'datapath_control_unit_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:171]
+INFO: [Synth 8-638] synthesizing module 'datapath_control_unit_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_control_unit_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'datapath_instmem_0_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_instmem_0_0_stub.vhdl:5' bound to instance 'instmem_0' of component 'datapath_instmem_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'datapath_instmem_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_instmem_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'datapath_pc_0_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_pc_0_0_stub.vhdl:5' bound to instance 'pc_0' of component 'datapath_pc_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:181]
+INFO: [Synth 8-638] synthesizing module 'datapath_pc_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_pc_0_0_stub.vhdl:15]
+INFO: [Synth 8-3491] module 'datapath_pc_add_0_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_pc_add_0_0_stub.vhdl:5' bound to instance 'pc_add_0' of component 'datapath_pc_add_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:188]
+INFO: [Synth 8-638] synthesizing module 'datapath_pc_add_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_pc_add_0_0_stub.vhdl:13]
+INFO: [Synth 8-3491] module 'datapath_regfile_0_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_regfile_0_0_stub.vhdl:5' bound to instance 'regfile_0' of component 'datapath_regfile_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:193]
+INFO: [Synth 8-638] synthesizing module 'datapath_regfile_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/.Xil/Vivado-5830-abdullah-ThinkPad-E570/realtime/datapath_regfile_0_0_stub.vhdl:19]
+INFO: [Synth 8-3491] module 'datapath_xlslice_0_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_0_0/synth/datapath_xlslice_0_0.v:57' bound to instance 'xlslice_0' of component 'datapath_xlslice_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:204]
+INFO: [Synth 8-6157] synthesizing module 'datapath_xlslice_0_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_0_0/synth/datapath_xlslice_0_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 31 - type: integer 
+	Parameter DIN_TO bound to: 26 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice' (1#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'datapath_xlslice_0_0' (2#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_0_0/synth/datapath_xlslice_0_0.v:57]
+INFO: [Synth 8-3491] module 'datapath_xlslice_1_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_1_0/synth/datapath_xlslice_1_0.v:57' bound to instance 'xlslice_1' of component 'datapath_xlslice_1_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:209]
+INFO: [Synth 8-6157] synthesizing module 'datapath_xlslice_1_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_1_0/synth/datapath_xlslice_1_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 25 - type: integer 
+	Parameter DIN_TO bound to: 21 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' (2#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'datapath_xlslice_1_0' (3#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_1_0/synth/datapath_xlslice_1_0.v:57]
+INFO: [Synth 8-3491] module 'datapath_xlslice_2_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_2_0/synth/datapath_xlslice_2_0.v:57' bound to instance 'xlslice_2' of component 'datapath_xlslice_2_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:214]
+INFO: [Synth 8-6157] synthesizing module 'datapath_xlslice_2_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_2_0/synth/datapath_xlslice_2_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized1' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 20 - type: integer 
+	Parameter DIN_TO bound to: 16 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized1' (3#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'datapath_xlslice_2_0' (4#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_2_0/synth/datapath_xlslice_2_0.v:57]
+INFO: [Synth 8-3491] module 'datapath_xlslice_3_0' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_3_0/synth/datapath_xlslice_3_0.v:57' bound to instance 'xlslice_3' of component 'datapath_xlslice_3_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:219]
+INFO: [Synth 8-6157] synthesizing module 'datapath_xlslice_3_0' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_3_0/synth/datapath_xlslice_3_0.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized2' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 15 - type: integer 
+	Parameter DIN_TO bound to: 11 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized2' (4#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'datapath_xlslice_3_0' (5#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_3_0/synth/datapath_xlslice_3_0.v:57]
+INFO: [Synth 8-3491] module 'datapath_xlslice_4_1' declared at '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_4_1/synth/datapath_xlslice_4_1.v:57' bound to instance 'xlslice_4' of component 'datapath_xlslice_4_1' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:224]
+INFO: [Synth 8-6157] synthesizing module 'datapath_xlslice_4_1' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_4_1/synth/datapath_xlslice_4_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized3' [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 32 - type: integer 
+	Parameter DIN_FROM bound to: 5 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized3' (5#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'datapath_xlslice_4_1' (6#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_xlslice_4_1/synth/datapath_xlslice_4_1.v:57]
+INFO: [Synth 8-256] done synthesizing module 'datapath' (7#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/synth/datapath.vhd:29]
+INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:70]
+INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:79]
+INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:88]
+INFO: [Synth 8-226] default block is never used [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:102]
+WARNING: [Synth 8-3848] Net overflow in module/entity TopLevel_comp does not have driver. [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:10]
+WARNING: [Synth 8-3848] Net zero in module/entity TopLevel_comp does not have driver. [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:11]
+WARNING: [Synth 8-3848] Net carryout in module/entity TopLevel_comp does not have driver. [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:12]
+WARNING: [Synth 8-3848] Net pcout1 in module/entity TopLevel_comp does not have driver. [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:30]
+WARNING: [Synth 8-3848] Net reset_sig in module/entity TopLevel_comp does not have driver. [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'TopLevel_comp' (8#1) [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized3 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[25]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[24]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[23]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[22]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[21]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[7]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[6]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[5]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[4]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[31]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[30]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[29]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[28]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[27]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[26]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[20]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[19]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[18]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[17]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[16]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[15]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[14]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[13]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[11]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[10]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[9]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[8]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[7]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1466.480 ; gain = 1.711 ; free physical = 368 ; free virtual = 3325
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin datapth:reset to constant 0 [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/imports/Downloads/toplevel.vhd:49]
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1466.480 ; gain = 1.711 ; free physical = 367 ; free virtual = 3325
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 1466.480 ; gain = 1.711 ; free physical = 367 ; free virtual = 3325
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_pc_0_0/datapath_pc_0_0/datapath_pc_0_0_in_context.xdc] for cell 'datapth/pc_0'
+Finished Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_pc_0_0/datapath_pc_0_0/datapath_pc_0_0_in_context.xdc] for cell 'datapth/pc_0'
+Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_pc_add_0_0/datapath_pc_add_0_0/datapath_pc_add_0_0_in_context.xdc] for cell 'datapth/pc_add_0'
+Finished Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_pc_add_0_0/datapath_pc_add_0_0/datapath_pc_add_0_0_in_context.xdc] for cell 'datapth/pc_add_0'
+Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_instmem_0_0/datapath_instmem_0_0/datapath_instmem_0_0_in_context.xdc] for cell 'datapth/instmem_0'
+Finished Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_instmem_0_0/datapath_instmem_0_0/datapath_instmem_0_0_in_context.xdc] for cell 'datapth/instmem_0'
+Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_regfile_0_0/datapath_regfile_0_0/datapath_regfile_0_0_in_context.xdc] for cell 'datapth/regfile_0'
+Finished Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_regfile_0_0/datapath_regfile_0_0/datapath_regfile_0_0_in_context.xdc] for cell 'datapth/regfile_0'
+Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_control_unit_0_0/datapath_control_unit_0_0/datapath_control_unit_0_0_in_context.xdc] for cell 'datapth/control_unit_0'
+Finished Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_control_unit_0_0/datapath_control_unit_0_0/datapath_control_unit_0_0_in_context.xdc] for cell 'datapth/control_unit_0'
+Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_ALU_0_0/datapath_ALU_0_0/datapath_ALU_0_0_in_context.xdc] for cell 'datapth/ALU_0'
+Finished Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_ALU_0_0/datapath_ALU_0_0/datapath_ALU_0_0_in_context.xdc] for cell 'datapth/ALU_0'
+Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_alu_control_0_0/datapath_alu_control_0_0/datapath_alu_control_0_0_in_context.xdc] for cell 'datapth/alu_control_0'
+Finished Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/sources_1/bd/datapath/ip/datapath_alu_control_0_0/datapath_alu_control_0_0/datapath_alu_control_0_0_in_context.xdc] for cell 'datapth/alu_control_0'
+Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/constrs_1/imports/Downloads/mips.xdc]
+WARNING: [Vivado 12-507] No nets matched 'clock_IBUF'. [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/constrs_1/imports/Downloads/mips.xdc:7]
+Finished Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/constrs_1/imports/Downloads/mips.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/constrs_1/imports/Downloads/mips.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/TopLevel_comp_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.srcs/constrs_1/imports/Downloads/mips.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopLevel_comp_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TopLevel_comp_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1725.887 ; gain = 0.000 ; free physical = 119 ; free virtual = 3059
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1725.887 ; gain = 0.000 ; free physical = 120 ; free virtual = 3060
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1725.887 ; gain = 0.000 ; free physical = 120 ; free virtual = 3060
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1725.887 ; gain = 0.000 ; free physical = 120 ; free virtual = 3060
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1725.887 ; gain = 261.117 ; free physical = 193 ; free virtual = 3135
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1725.887 ; gain = 261.117 ; free physical = 193 ; free virtual = 3135
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for datapth. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/pc_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/pc_add_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/instmem_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/regfile_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/control_unit_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/xlslice_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/xlslice_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/xlslice_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/xlslice_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/ALU_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/alu_control_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for datapth/xlslice_4. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1725.887 ; gain = 261.117 ; free physical = 194 ; free virtual = 3136
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1725.887 ; gain = 261.117 ; free physical = 185 ; free virtual = 3127
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module TopLevel_comp 
+Detailed RTL Component Info : 
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1725.887 ; gain = 261.117 ; free physical = 173 ; free virtual = 3118
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1726.887 ; gain = 262.117 ; free physical = 126 ; free virtual = 3031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1736.902 ; gain = 272.133 ; free physical = 126 ; free virtual = 3019
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1736.902 ; gain = 272.133 ; free physical = 126 ; free virtual = 3027
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin datapth:reset to constant 0
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1736.902 ; gain = 272.133 ; free physical = 126 ; free virtual = 3029
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1736.902 ; gain = 272.133 ; free physical = 126 ; free virtual = 3029
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1736.902 ; gain = 272.133 ; free physical = 126 ; free virtual = 3029
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1736.902 ; gain = 272.133 ; free physical = 126 ; free virtual = 3029
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1736.902 ; gain = 272.133 ; free physical = 126 ; free virtual = 3029
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1736.902 ; gain = 272.133 ; free physical = 126 ; free virtual = 3029
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------+----------+
+|      |BlackBox name             |Instances |
++------+--------------------------+----------+
+|1     |datapath_ALU_0_0          |         1|
+|2     |datapath_alu_control_0_0  |         1|
+|3     |datapath_control_unit_0_0 |         1|
+|4     |datapath_instmem_0_0      |         1|
+|5     |datapath_pc_0_0           |         1|
+|6     |datapath_pc_add_0_0       |         1|
+|7     |datapath_regfile_0_0      |         1|
++------+--------------------------+----------+
+
+Report Cell Usage: 
++------+---------------------------------+------+
+|      |Cell                             |Count |
++------+---------------------------------+------+
+|1     |datapath_ALU_0_0_bbox_0          |     1|
+|2     |datapath_alu_control_0_0_bbox_1  |     1|
+|3     |datapath_control_unit_0_0_bbox_2 |     1|
+|4     |datapath_instmem_0_0_bbox_3      |     1|
+|5     |datapath_pc_0_0_bbox_4           |     1|
+|6     |datapath_pc_add_0_0_bbox_5       |     1|
+|7     |datapath_regfile_0_0_bbox_6      |     1|
+|8     |BUFG                             |     1|
+|9     |CARRY4                           |     5|
+|10    |LUT1                             |     2|
+|11    |LUT2                             |     4|
+|12    |LUT4                             |     7|
+|13    |LUT6                             |     8|
+|14    |MUXF7                            |     4|
+|15    |FDCE                             |    19|
+|16    |IBUF                             |     4|
+|17    |OBUF                             |    12|
+|18    |OBUFT                            |     8|
++------+---------------------------------+------+
+
+Report Instance Areas: 
++------+--------------+---------------------+------+
+|      |Instance      |Module               |Cells |
++------+--------------+---------------------+------+
+|1     |top           |                     |   274|
+|2     |  datapth     |datapath             |   200|
+|3     |    xlslice_0 |datapath_xlslice_0_0 |     0|
+|4     |    xlslice_1 |datapath_xlslice_1_0 |     0|
+|5     |    xlslice_2 |datapath_xlslice_2_0 |     0|
+|6     |    xlslice_3 |datapath_xlslice_3_0 |     0|
+|7     |    xlslice_4 |datapath_xlslice_4_1 |     0|
++------+--------------+---------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1736.902 ; gain = 272.133 ; free physical = 126 ; free virtual = 3029
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 142 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1736.902 ; gain = 12.727 ; free physical = 179 ; free virtual = 3082
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1736.910 ; gain = 272.133 ; free physical = 178 ; free virtual = 3082
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1742.902 ; gain = 0.000 ; free physical = 121 ; free virtual = 3026
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+64 Infos, 112 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1742.902 ; gain = 278.133 ; free physical = 176 ; free virtual = 3081
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1742.902 ; gain = 0.000 ; free physical = 176 ; free virtual = 3081
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/tools/Xilinx/Vivado/2018.3/bin/lab2/lab2.runs/synth_1/TopLevel_comp.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TopLevel_comp_utilization_synth.rpt -pb TopLevel_comp_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 26 18:03:19 2020...
